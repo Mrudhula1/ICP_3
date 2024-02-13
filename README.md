@@ -5,3 +5,5 @@ This Python program defines a class called 'Employee' and a subclass 'FulltimeEm
 Problem - 2
 
 Python program to use the NumPy library to perform operations on a randomly generated vector. First I import the NumPy library, then I Generate a random vector of 20 elements using NumPy's 'random.uniform' function, with values ranging between 1 and 20. This vector is stored in the variable 'randomVector',then I print the 'randomVector',after that I Reshape the 'randomVector' into a 4x5 matrix (a 2-dimensional array) using the 'reshape' method. This reshaped matrix is stored in the variable 'reshapedArray' and print it, then Using NumPy functions I identify the index of the maximum value in each row of 'reshapedArray'. I do this by first using 'numpy.argmax' along 'axis=1' to find the column index with the maximum value for each row, and then uses 'numpy.arange' to generate row indices, then i replace this max value to zero and print the modified array.
+
+VIDEO LINK: https://share.vidyard.com/watch/RTdW6tTdU9v6noQfnMayNF?
